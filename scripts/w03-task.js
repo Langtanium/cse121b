@@ -62,7 +62,7 @@ document.getElementById("getTotal").addEventListener("click", getSubtotal);
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
 const numbersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-document.getElementById("array").textContent = numbersArray;
+document.getElementById("array").innerHTML = numbersArray;
 /* Output Odds Only Array */
 document.getElementById("odds").innerHTML = numbersArray.filter((number) => number % 2 !== 0);
 /* Output Evens Only Array */
